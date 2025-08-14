@@ -6,7 +6,7 @@ export const Input = () => {
     return(
         <View style= {styles.campoInput}>
             <Text>CEP</Text>
-            <TextInput placeholder="00000-00"
+            <TextInput placeholder="00000-000"
             style={styles.input}
             maxLength={8}
             ></TextInput>
